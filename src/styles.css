@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+:root {
+  --primary-color: #adefd1ff;
+  --light: #b8faff;
+  --dark: #043763;
+  --secondary-color: rgb(44, 231, 172);
+}
+hr {
+  border-top: 2.5px solid var(--dark);
+}
+.App {
+  font-family: "Lobster", cursive;
+
+  max-width: 80%;
+  max-height: 100%;
+  margin: auto;
+}
+body {
+  background: var(--primary-color);
+}
+h1 {
+  font-family: "Italianno", cursive;
+  font-size: 4rem;
+  text-shadow: -1px -1px 0 var(--secondary-color), 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 var(--light);
+  color: var(--dark);
+}
+h2 {
+  margin-right: auto;
+}
+button {
+  margin: 5px;
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--primary-color);
+  background: var(--dark);
+  cursor: pointer;
+  font-size: 22px;
+}
+
+button:hover {
+  background: var(--secondary-color);
+  color: var(--dark);
+}
+ul {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style-type: none;
+  text-align: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+}
+li {
+  margin: auto;
+  list-style: none;
+  border: 0.5px solid;
+  max-width: 320px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: var(--light);
+}
+#spotifyLink {
+  text-decoration: none;
+  color: black;
+}
+div {
+  text-align: center;
+  padding: 3.5px;
+  margin: auto;
+}
+.album {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.artist {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+.rating {
+  font-size: 0.9rem;
+}
+
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+footer p {
+  margin: 2px;
+}
+
+.year {
+  font-size: 0.9rem;
+}
